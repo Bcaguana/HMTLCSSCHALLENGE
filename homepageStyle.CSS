@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(243, 233, 255);
+}
+
+h1 {
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(90, 49, 203);
+    margin: 20px auto 20px 30px;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 72px;
+    display: block;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    display: block;
+}
+
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    margin: 60px auto 16px auto;
+    background-color: rgb(119, 74, 216);
+    width: 1120px;
+}
+
+.section{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+li{
+    margin: 10px;
+    list-style: none;
+}
+
+li.points {
+    border-left: 5px solid yellow;
+    color: yellow;
+}
+
+span{
+    padding: 4px;
+    border-radius: 5px;
+    color: rgb(119, 74, 216);
+    background-color: rgb(253, 235, 187);
+}
+
+#PDF-Link {
+    font-family: 'DM Sans', sans-serif;
+    width: 200px;
+    margin: 12px auto 12px auto;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+#PDF-Link:hover {
+    background-color: rgb(255, 255, 151);
+}
+
+#copyright {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+}

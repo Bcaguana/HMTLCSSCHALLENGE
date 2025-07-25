@@ -15,28 +15,36 @@ h1 {
 img {
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
+    width: 400px;
     display: block;
 }
 
-h2 {
+main {
     font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
     padding: 40px;
     border-radius: 10px;
     color: white;
     margin: 60px auto 16px auto;
     background-color: rgb(119, 74, 216);
-    width: 1120px;
+    width: 1100px;
 }
 
-.section{
+h2.section{
     font-size: 32px;
-    font-weight: bolder;
+    font-weight: 800;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 li{
     margin: 10px;
-    list-style: none;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
 }
 
 li.points {
@@ -44,11 +52,14 @@ li.points {
     color: yellow;
 }
 
-span{
+a.highlight{
     padding: 4px;
     border-radius: 5px;
     color: rgb(119, 74, 216);
     background-color: rgb(253, 235, 187);
+}
+.highlight:hover{
+    background-color: rgb(182, 165, 118);
 }
 
 #PDF-Link {
@@ -71,4 +82,8 @@ span{
 #copyright {
     font-family: 'DM Sans', sans-serif;
     text-align: center;
+}
+
+strong.emphasize{
+    font-weight: 900;
 }
